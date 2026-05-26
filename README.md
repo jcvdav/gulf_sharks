@@ -12,6 +12,20 @@ the focus is on the derived datasets in `data/`.
 
 ---
 
+## How to cite
+
+**If you use the data**, please cite:
+
+> Villaseñor-Derbez, J. C. (2026). *Landings Data for Mexican Shark Fisheries
+> in the Gulf of Mexico* [Dataset]. GitHub. https://github.com/jcvdav/gulf_sharks
+
+**If you use or adapt the code**, please cite:
+
+> Villaseñor-Derbez, J. C. (2026). *gulf_sharks* [Software]. GitHub.
+> https://github.com/jcvdav/gulf_sharks
+
+---
+
 ## Data
 
 Processed data files are located in `data/`:
