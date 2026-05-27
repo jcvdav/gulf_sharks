@@ -10,8 +10,8 @@
 # mex_landings repository (Villaseñor-Derbez & Longnecker, 2025). Filters for
 # elasmobranch species (tiburón and cazón) reported in the five Gulf of Mexico
 # states (Tamaulipas, Veracruz, Tabasco, Campeche, Yucatán), and aggregates
-# annual live and landed weights by year, state, species group, and species
-# name. Exports the result as both RDS and CSV files to data/.
+# annual live and landed weights by year, state, fleet, species group, and
+# species name. Exports the result as both RDS and CSV files to data/.
 #
 # Source data are pinned to a specific commit in the mex_landings repository to
 # ensure reproducibility.
@@ -54,6 +54,7 @@ shark_landings <- bind_rows(data_early,
   rename(year = year_cut) |> 
   group_by(year,
            state,
+           fleet,
            main_species_group,
            species_name) |> 
   summarize(live_weight = sum(live_weight, na.rm = T),
