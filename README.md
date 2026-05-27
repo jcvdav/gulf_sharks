@@ -79,9 +79,9 @@ the column):
 | Seco / Seca | SECO / SECA | Dried |
 | Carne | CARNE | Meat (flesh) |
 
-The masculine/feminine variants (FCO./FCA., -o/-a) agree with the grammatical
-gender of the common name (e.g. *tiburón* is masculine, *cornuda* is feminine);
-they do not carry biological meaning.
+Note that the masculine/feminine variants (FCO./FCA., -o/-a) agree with the grammatical
+gender of the common name in Spanish (e.g. *tiburón* is masculine, *cornuda* is feminine),
+but they do not carry biological meaning.
 
 **Common Spanish names for shark types** (most frequent in the dataset):
 
